@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top{
+	font-size:45px;
+	width:100%;
+	height:500px;
+}
+#contact {
+	width: 650px;
+	height: 450px;
+	margin-left: 650px;
+	font-family: '微软雅黑';
+	position: absolute;
+	overflow: hidden;
+	left: -100px;
+	top: 400px;
+	background-image:url(../images/bg2.png);
+	background-repeat:no-repeat;
+}
+#interviewBox {
+	background-image: url(../images/textBook.png);
+	background-size: cover;
+	height: 390px;
+	width: 317px;
+	left: 16px;
+	top: -2px;
+	bottom: 0;
+	margin: 0px;
+	position: absolute;
+	float:right;
+}
+#interviewBox>form {
+	display: inline-block;
+	position: absolute;
+	top: 35px;
+	height: 100%;
+}
+.inputCommon {
+	height: 20px;width: 252px;
+	left: 38px;
+	border:0;
+	padding: 0;
+	font-size: 16px;
+	margin-bottom: 10px;
+	position: relative;
+	background-color: transparent;
+	border-bottom: 1px solid #b0b0b0;
+}
+.uncommon {
+	width: 252px;
+	margin:0px;
+	}
+#interviewBox>form>input ,#interviewBox>form>textarea {
+	outline: none;
+}
+#interviewBox>form>input:focus {
+	border:0;
+	border-bottom: 1px solid #b0b0b0;
+}
+#yIdear {
+	width: 252px;height: 189px;
+	top: 12px;
+	left: 38px;
+	border:0;
+	padding: 0;
+	font-size: 16px;
+	position: relative;
+	background-color: transparent;
+	border: 1px solid #b0b0b0;
+	resize: none;
+	overflow: auto;
+}
+#submit {
+	font-size: 17px;
+	height: 35px;
+	width: 70px;
+	left: 131px;
+	bottom: 48px;
+	margin-top: 40px;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	background-color: #6bd56d;
+	border: none;
+	border-radius: 5px;
+	color: rgb(100, 106, 107);
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#submit:hover {
+	background-color: #3DC540;
+	border: 0;
+	color: white;
+}
+#submit:focus {
+	border: none;
+}
+#contact1{
+	position:absolute;
+	margin-top:20px;
+	right:10px;
+	width:300px;
+	height:300px;
+	
+}
+@media(max-width:800px){#contact1{display:none}}
+#contact2{
+	margin-top:80px;
+	color:black;
+}
+#contact1 p{color:black;}
+#title{
+	position:relative;
+}
